@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Solo privacy policy</title>
+<style>
+  :root { --bg: #ffffff; --fg: #1d1f23; --muted: #5b616b; --line: #e3e5e8; --accent: #2f6fde; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #1b1d21; --fg: #e8e9eb; --muted: #a2a7af; --line: #2f3238; --accent: #7aa7ff; } }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 1.8rem; margin: 0 0 4px; }
+  .lead { color: var(--muted); margin: 0 0 32px; }
+  h2 { font-size: 1.1rem; margin: 32px 0 8px; }
+  a { color: var(--accent); }
+  li { margin: 4px 0; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy policy</h1>
+  <p class="lead">Solo · last updated 12 November 2026</p>
+
+  <p>Solo is a desktop application that runs on your own Windows computer. This policy explains what Solo does with your
+  data, in particular with data from your Google account when you connect Gmail.</p>
+
+  <h2>Who processes your data</h2>
+  <p>Solo runs only on your computer. The developer of Solo runs no server for it and receives none of your data: not
+  your e-mail, not your chats, not your sign-in.</p>
+
+  <h2>Data from Google</h2>
+  <p>When you connect Gmail, Solo asks Google for these permissions:</p>
+  <ul>
+    <li><b>Read your e-mail</b> (gmail.readonly): to search and read messages when you ask Solo's agents to.</li>
+    <li><b>Send e-mail on your behalf</b> (gmail.send): only after you approve each e-mail on a card that shows its
+      recipients and text.</li>
+    <li><b>Your e-mail address</b> (openid, email): to show which account is connected.</li>
+  </ul>
+  <p>Solo reads e-mail only when you ask for it in a chat, and only what the task needs. It does not read your mailbox in
+  the background, does not keep copies of your mailbox, and does not use your e-mail for advertising or to train AI
+  models.</p>
+
+  <h2>AI models you choose</h2>
+  <p>To answer you, Solo sends your messages, and the parts of e-mails an agent read for your request, to the AI model you
+  chose in Solo. A model that runs on your computer keeps everything on it. A model of an online provider (for example
+  OpenAI, Anthropic or Google) receives that text under the provider's own terms and privacy policy. You choose the
+  models; you can use local models only.</p>
+
+  <h2>Where it is kept</h2>
+  <p>The access Google gives Solo (tokens) is kept on your computer, encrypted with Windows (DPAPI). Your chats are kept
+  on your computer in Solo's data folder. Nothing is kept anywhere else by Solo.</p>
+
+  <h2>Limited Use</h2>
+  <p>Solo's use and transfer of information received from Google APIs to any other app will adhere to the
+  <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+  including the Limited Use requirements.</p>
+
+  <h2>Removing access and data</h2>
+  <ul>
+    <li>In Solo: Settings → Connected apps → Disconnect removes the access from your computer.</li>
+    <li>In your Google account: <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>
+      → Solo → Remove access.</li>
+    <li>Your chats and data: Settings → Your data → Reset my data, or delete Solo's folder.</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="mailto:mario.jemic@gmail.com">mario.jemic@gmail.com</a>.</p>
+
+  <footer><a href="index.html">Solo</a></footer>
+</main>
+</body>
+</html>
